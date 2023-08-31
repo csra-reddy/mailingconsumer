@@ -28,5 +28,5 @@ services:
       - kafka
     environment:
       SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
-      SPRING_KAFKA_CONSUMER_GROUP_ID: your-consumer-group-id  # Replace with your consumer group ID
+      SPRING_KAFKA_CONSUMER_GROUP_ID: mail-group  # Replace with your consumer group ID
 
